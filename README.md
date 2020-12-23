@@ -1,6 +1,6 @@
 # img2pdf
 
-> A Whalebrew image for img2pdf installed on Arch Linux
+> A Whalebrew image for img2pdf installed on Alpine Linux
 
 ## Installation
 

@@ -1,6 +1,6 @@
-FROM archlinux
+FROM alpine:edge
 
-RUN pacman --noconfirm -Sy && pacman --noconfirm -S img2pdf && pacman --noconfirm -Sc
+RUN apk add --no-cache py-img2pdf
 
 LABEL io.whalebrew.config.name 'img2pdf'
 
